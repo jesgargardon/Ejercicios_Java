@@ -5,3 +5,5 @@
 # ESTADO
 # La idea es que este proyecto este en constante construcción, enriqueciendolo con los distintos ejercicios que vayamos planteando cada curso.
 # Empiezo en el curso 2023-24, volcando todos los ejercicios que tengo de cursos anteriores.
+# USO
+# Los distintos proyectos Java que vayan dando solución a los ejercicios planteados estaran implementados con el IDE: IntelliJ IDEA
