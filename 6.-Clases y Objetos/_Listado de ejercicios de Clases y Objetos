@@ -1,4 +1,5 @@
 6_1_ClaseEventoConcierto
+-------------------------
 a.- Crea una clase llamada Evento con las siguientes características:
 - Dos parámetros: ubicación (tipo String) y año (tipo int)
 - Un constructor que admita todos los parámetros
