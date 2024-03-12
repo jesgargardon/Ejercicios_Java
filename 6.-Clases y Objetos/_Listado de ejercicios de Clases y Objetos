@@ -1,1 +1,17 @@
-
+6_1_ClaseEventoConcierto
+a.- Crea una clase llamada Evento con las siguientes características:
+- Dos parámetros: ubicación (tipo String) y año (tipo int)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método que pinte en pantalla si el evento sucede este año o no.
+b.- Crea una clase llamada Concierto que herede de la clase Evento, con las siguientes características:
+- Dos parámetros: aforo (tipo int) y cantante (tipo String)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método que devuelva un booleano indicando si el concierto está lleno. El criterio para que el concierto
+este lleno es que el aforo sea 100 o mayor
+c.- En el método main:
+- Crea un objeto concierto e inicializalo con los valores que quieras.
+- Emplea el método de la clase Evento para indicar por pantalla si el concierto sucede este año.
+- Indica por pantalla si el concierto está lleno o no, empleando el método de la clase Concierto que nos
+devolvía un booleano indicando si el concierto estaba lleno o no.
