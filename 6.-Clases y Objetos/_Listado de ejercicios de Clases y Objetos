@@ -16,3 +16,60 @@ c.- En el método main:
 - Emplea el método de la clase Evento para indicar por pantalla si el concierto sucede este año.
 - Indica por pantalla si el concierto está lleno o no, empleando el método de la clase Concierto que nos
 devolvía un booleano indicando si el concierto estaba lleno o no.
+
+6_2_ClaseMuebleLibreria
+-----------------------
+a.- Crea una clase llamada Mueble con las siguientes características:
+- Dos parámetros: descripción (tipo String) y precio (tipo int)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método llamado cuotaMensual, al que se le pasa el parámetro meses y 
+devuelve la cuota mensual, resultado de dividir el precio por el parámetro meses.
+b.- Crea una clase llamada Libreria que herede de la clase Mueble, con las siguientes características:
+- Dos parámetros: numeroBaldas (tipo int) y tieneCajones (tipo boolean)
+- Un constructor que admita todos los parámetros, incluyendo los heredados
+- Todos los métodos getters y setters
+- Un método que imprima por pantalla todos los parámetros de un Objeto Libreria,
+tanto los heredados como los propios de la Clase.
+c.- En el método main:
+- Crea un objeto Libreria e inicializa todos los parámetros con los valores que quieras.
+- Emplea el método de la clase Mueble para indicar por pantalla la cuota mensual a pagar,
+si el mueble se financiara a 6 meses.
+- Presenta por pantalla todas las características del objeto Libreria creado, usando el
+método de la Clase Libreria
+
+6_3_ClaseRopaZapato
+-------------------
+Crea una clase de nombre Ropa que tenga los siguientes parámetros:
+talla (tipo integer), marca (tipo String) y precio (tipo integer). 
+Todos los parámetros deben ser declarados como privados, por lo que será
+necesario implementar los métodos getters y setters para usarlos.
+Esta clase debe tener un constructor que acepte todos los parámetros.
+Crea otra clase de nombre Zapato que herede de la clase Ropa.
+La clase Zapato tiene un parámetro: conCordones (privado de tipo Boolean) 
+y un constructor que acepta todos los parámetros, incluidos los de la superclase (Ropa).
+La clase Zapato tiene un método llamado datosZapato que pinta por pantalla
+todos los datos del objeto Zapato, incluidos los heradados.
+Creadas las dos clases, en el método main, hay que programar las siguientes acciones:
+•Pedir al usuario del programa que introduzca todos los datos de un Zapato.
+•Con los datos introducidos por el usuario, crear un objeto Zapato.
+•Empleando la función datosZapatos de la clase zapato, mostrar por pantalla los datos
+del zapato introducido por el usuario.
+
+6_4_ClaseMueblesLamparasMesas
+------------------------------
+Crea una clase llamada Muebles que tenga los parámetros:precio y peso en kilos.
+Estos parámetros son de tipo int y tienen que ser declarados como privados.
+Crea una clase llamada Lamparas que herede de la clase Muebles.
+La clase Lamparas tiene un único parámetro: numero de bombillas. Este parámetro
+es de tipo int y tiene que ser declarado como privado.
+La clase Lamparas tiene un metodo que calcula el extracoste de la lampara
+en función del número de bombillas: 5 unidades por bombilla
+Crea una clase llamada Mesas que herede de la clase Muebles.
+La clase Mesas tiene un único parámetro: numero de sillas. Este parámetro
+es de tipo int y tiene que ser declarado como privado.
+La clase Mesas tiene un metodo que calcula el extracoste de la mesa
+en función del número de sillas: 10 unidades por silla
+En el metodo main, crea un objeto mesa y otro objeto lampara. Presenta por pantalla
+el coste total de los dos muebles, considerando  el precio de ambos, más 
+los extracostes de ambos, calculados a partir de las funciones extra coste de las dos clases
