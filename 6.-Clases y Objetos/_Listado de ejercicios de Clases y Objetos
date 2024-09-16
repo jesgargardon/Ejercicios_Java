@@ -73,3 +73,9 @@ en función del número de sillas: 10 unidades por silla
 En el metodo main, crea un objeto mesa y otro objeto lampara. Presenta por pantalla
 el coste total de los dos muebles, considerando  el precio de ambos, más 
 los extracostes de ambos, calculados a partir de las funciones extra coste de las dos clases
+
+6_5_ClaseLibroEHijas
+--------------------
+Define una clase Libro con los atributos titulo, autor y precio. Luego, crea las clases hijas Ebook y LibroFisico,
+que hereden de Libro y añade al menos un atributo específico a cada una de ellas. 
+Crea un objeto de cada clase hija (2 objetos en total) y muestra por pantalla todos los parámetros de uno de ellos.
