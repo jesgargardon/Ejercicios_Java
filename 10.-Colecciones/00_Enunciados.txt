@@ -1,1 +1,10 @@
-
+10-01_GestionGaleriaDeArte
+---------------------------
+Desarrolla un sistema de gestión de una galería de arte que permita al usuario realizar las siguientes acciones:
+1.	Agregar una nueva obra de arte al sistema: El usuario debe poder ingresar los detalles de la obra de arte, que son: título, artista, año de creación y precio.
+2.	Eliminar una obra de arte del sistema: El usuario puede buscar una obra de arte por su título y eliminarla del sistema.
+3.	Actualizar el precio de una obra de arte en el sistema: El usuario puede buscar una obra de arte por su título y actualizar el precio de la obra.
+4.	Listar todas las obras de arte en el sistema: El programa debe mostrar un listado de todas las obras de arte en el sistema, incluyendo su título, artista, año de creación y precio.
+5.	Salir del programa: El usuario puede salir del sistema.
+Al agregar una nueva obra de arte, el sistema debe verificar si ya existe una obra de arte con el mismo título en el sistema. Si es así, debe actualizar la información de la obra existente en lugar de agregar una nueva.
+Al actualizar el precio de una obra de arte, el sistema debe verificar si la obra existe y permitir al usuario ingresar el nuevo precio de la obra.
