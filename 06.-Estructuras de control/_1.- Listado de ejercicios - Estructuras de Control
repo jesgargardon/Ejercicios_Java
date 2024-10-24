@@ -1,4 +1,4 @@
-6_1.-AcertarNumero
+06_1.-AcertarNumero
 -------------------
 Realiza un programa en el que el usuario tendrá que acertar un número entre 1 y 1000. Dicho número está hardcodeado en la variable valor.
 El usuario tiene que introducir un número entre 1 y 1000 por teclado. No es necesario comprobar que el usuario introduce el número correctamente.
@@ -6,7 +6,7 @@ El número de intentos para acertar es ilimitado, y el programa seguirá pidién
 Tras cada introducción, el programa tiene que indicar los intentos que lleva el usuario y si el número introducido es mayor o menor que el valor que hay que acertar.
 Cuando se acierte, se presenta un texto diciendo que se ha acertado y el número de intentos que se han necesitado.
 
-6_2.-IntroduccionNombresAlumnos
+06_2.-IntroduccionNombresAlumnos
 ------------------------------
 Realiza un programa que pida al usuario que introduzca por teclado el número de alumnos en clase.
 Usando el número introducido por el usuario, el programa pedirá al usuario que 
@@ -18,7 +18,7 @@ el programa termina presentando el mensaje:
 Lógicamente, en <número de alumnos> tienes que presentar el valor numérico del número de alumnos.
 Y presentar por pantalla, la lista de los nombres de los alumnos, uno por línea.
 
-6_3.-DivisoresExactos
+06_3.-DivisoresExactos
 ---------------------
 Codifica un programa que pida al usuario que introduzca un número entre 1 y 1000, 
 e imprima todos los divisores exactos de ese número.
@@ -34,7 +34,7 @@ El numero 170 es divisible por 34
 El numero 170 es divisible por 85
 El numero 170 es divisible por 170
 
-6_4.-IntroducirNuevaContraseña
+06_4.-IntroducirNuevaContraseña
 ------------------------------
 Codificar un programa Java que solicita al usuario la introducción de una nueva contraseña.
 Para ser segura, la contraseña debe tener más de 7 caracteres. 
@@ -50,7 +50,7 @@ Si el usuario falla todos los intentos, debe imprimir un mensaje en la pantalla 
 "Lo sentimos, ha superado el número de intentos para cambiar la contraseña. Inténtelo de nuevo después de 5 minutos"
 y finaliza el programa.
 
-6_5.-IntroducirNotasExamen
+06_5.-IntroducirNotasExamen
 --------------------------
 Realiza un programa para introducir las notas de un examen.
 El usuario del programa tiene que indicar el número de alumnos que se han
@@ -62,7 +62,7 @@ han obtenido un 5 o superior), el número de alumnos suspendidos (nota inferior 
 5) y la media de las notas.
 NOTA: Por simplificar, se puede asumir que las notas son enteros, no hay decimales
 
-6-6.-AcertarEdadUsuario
+06-6.-AcertarEdadUsuario
 -----------------------
 Realiza un programa que pregunte a un usuario su edad.
 Entonces, otro usuario tendrá que acertar la edad del primero.
@@ -73,12 +73,12 @@ es mayor o menor que la edad del primer usuario.
 Cuando se acierte, se presenta un texto diciendo que se ha acertado y
 el número de intentos que se han necesitado.
 
-6_7.-NumerosDivisiblePor33
+06_7.-NumerosDivisiblePor33
 --------------------------
 Empleando un bucle for, dibuja por pantalla todos los números entre el 1 y el 1000 que son disivibles por 33.
 Tras mostrar los números divisible por 33, indicar tambien por pantalla cuantos números son.
 
-6_8.-Suma de los primeros N números naturales
+06_8.-Suma_Primeros_N_numeros_naturales
 ---------------------------------------------
 Escribe un programa que solicite al usuario un número entero positivo N y calcule la suma de los primeros N números naturales.
 Por ejemplo:
