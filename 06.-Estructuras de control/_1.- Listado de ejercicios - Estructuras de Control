@@ -78,3 +78,10 @@ el número de intentos que se han necesitado.
 Empleando un bucle for, dibuja por pantalla todos los números entre el 1 y el 1000 que son disivibles por 33.
 Tras mostrar los números divisible por 33, indicar tambien por pantalla cuantos números son.
 
+6_8.-Suma de los primeros N números naturales
+---------------------------------------------
+Escribe un programa que solicite al usuario un número entero positivo N y calcule la suma de los primeros N números naturales.
+Por ejemplo:
+•	Número introducido: 6
+•	Resultado = 21
+
