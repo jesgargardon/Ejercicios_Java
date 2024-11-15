@@ -80,3 +80,24 @@ Define una clase Libro con los atributos titulo, autor y precio. Luego, crea las
 que hereden de Libro y añade al menos un atributo específico a cada una de ellas. 
 Crea un objeto de cada clase hija (2 objetos en total) y muestra por pantalla todos los parámetros de uno de ellos.
 
+08-06_ClaseDispositivoEHijas
+----------------------------
+Define una clase Dispositivo con los atributos: marca, modelo y precio. Luego, crea las clases hijas: Smartphone  y Portatil, 
+que hereden de Dispositivo y añade al menos un atributo específico a cada una de ellas.
+Crea un objeto de cada clase hija (2 objetos en total) y pinta por pantalla todos los parámetros de uno de ellos.
+
+08-07_ClaseViviendaEHijas
+--------------------------
+Crea una clase llamada Vivienda con los parámetros: año de construcción, metros cuadrados habitables y precio. Crea otra clase
+llamada Chalet que herede de Vivienda y que tenga un único parámetro: piscina (un booleano que indica si el chalet tiene piscina). 
+La clase Chalet tiene un método para calcular el máximo de hipoteca que se le puede conceder. Este método sigue la lógica siguiente:
+Si el chalet tiene piscina, el máximo de hipoteca que se puede conceder es cero, si no la tiene, el máximo de hipoteca es el precio
+por metro cuadrado multiplicado por 100 (el precio por metro cuadrado se obtiene dividiendo los metros cuadrados habitables entre el precio).
+El programa pide al usuario que introduzca los datos de un Chalet, crea un objeto Chalet con los datos introducidos, y empleando la función
+de la clase Chalet presenta por pantalla el máximo de hipoteca para ese Chalet.
+
+08-08_ClaseInstrumentoMusicalEHijas
+-----------------------------------
+Define una clase InstrumentoMusical con los atributos nombre, tipo y precio. Luego, crea las clases hijas Guitarra y Piano, que hereden
+de InstrumentoMusical y añade al menos un atributo específico a cada una de ellas. Crea un objeto de cada clase hija (2 objetos en total)
+y muestra por pantalla todos los parámetros de uno de ellos.
