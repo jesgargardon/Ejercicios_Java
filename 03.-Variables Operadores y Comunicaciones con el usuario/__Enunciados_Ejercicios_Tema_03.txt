@@ -1,0 +1,69 @@
+-----------
+Ejercicio 1
+-----------
+Corrige el programa siguiente para que se ejecute sin errores:
+public Class CorregirErroresBasicos_1{
+     public static void main(String args){
+        String nombre = "Pablo;
+        System.out.println("Hola "+Pablo);
+     }
+}
+-----------
+Ejercicio 2
+-----------
+En este ejercicio, tenemos que corregir los errores del programa siguiente para que se ejecute correctamente.
+public class CorregirErrores_2 {
+    public static void main(String[] args) {
+        int a,b;c;
+        a = 10; b=10;
+        c =a+b;
+        int cont;
+        for (int i=a;i<c;i++){
+            cont++;
+            System.out.pritln ("cont: "cont);
+            System.out.println(b+cont);
+        }
+    }
+}
+-----------
+Ejercicio 3
+-----------
+Desarrolla un programa con las siguientes características:
+El programa debe tener dos variables de tipo double. El valor de esas variables está hardcodeado, la primera vale 5 y la segunda 7. Y el programa debe presentar por pantalla las siguientes líneas.
+Primer valor = <valor almacenado en la primera variable>
+Segundo valor = <valor almaceanado en la segunda variable>
+Multiplicación = <resultado de la multiplicación de ambos valores>
+División= <resultado de la división de ambos valores>"
+-----------
+Ejercicio 4
+-----------
+Corrige los errores en el siguiente programa para que funcione correctamente.
+
+public Class Multi {
+public static void main(String args[]) {
+    int a; b, c;
+    a=1; b==1 , c=3;
+    System.out.println("" b x c ="" + b*c);
+    System.out.println("" a x c =""  a*c);
+    if (a=b){
+        System.out.println (""a y b son iguales"");
+    }
+    }
+}
+-----------
+Ejercicio 5
+-----------
+Codifica un programa que calcule el descuento de una compra. El programa pedirá al usuario que indique el precio del producto, el número de unidades que compra y el descuento total que tiene. Con esos datos, el programa presenta por pantalla lo que ha pagado el cliente y lo que se ha ahorrado gracias al descuento.
+-----------
+Ejercicio 6
+-----------
+Realiza un programa que devuelva los resultados de una ecuación de segundo grado. El usuario tiene que introducir por teclado los coeficientes de la ecuación de segundo grado. En el caso de no tener soluciones reales, hay que detectarlo e indicarlo con un mensaje por pantalla.
+-----------
+Ejercicio 7
+-----------
+Realizar un programa que pida de manera interrumpida al usuario que introduzca un número entero positivo. El programa dejará de pedir al usuario que introduzca un número cuando el número introducido sea el cero. Al finalizar, el programa debe calcular y mostrar el promedio de los números introducidos.
+
+
+
+
+ 
