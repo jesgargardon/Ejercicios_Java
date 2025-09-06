@@ -58,12 +58,6 @@ Codifica un programa que calcule el descuento de una compra. El programa pedirá
 Ejercicio 6
 -----------
 Realiza un programa que devuelva los resultados de una ecuación de segundo grado. El usuario tiene que introducir por teclado los coeficientes de la ecuación de segundo grado. En el caso de no tener soluciones reales, hay que detectarlo e indicarlo con un mensaje por pantalla.
------------
-Ejercicio 7
------------
-Realizar un programa que pida de manera interrumpida al usuario que introduzca un número entero positivo. El programa dejará de pedir al usuario que introduzca un número cuando el número introducido sea el cero. Al finalizar, el programa debe calcular y mostrar el promedio de los números introducidos.
-
-
-
 
  
+
