@@ -1,0 +1,41 @@
+public class Coche {
+    private String propietario;
+    private String matricula;
+    private String marca;
+    private boolean reparado;
+
+    public Coche(String propietario, String matricula, String marca, boolean reparado) {
+        this.propietario = propietario;
+        this.matricula = matricula;
+        this.marca = marca;
+        this.reparado = reparado;
+    }
+    @Override
+    public String toString() {
+        return "Coche{" + "propietario=" + propietario + ", matricula=" + matricula + ", marca=" + marca + ", reparado=" + reparado + '}';
+    }
+    public String getPropietario() {
+        return propietario;
+    }
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+    public String getMatricula() {
+        return matricula;
+    }
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+    public String getMarca() {
+        return marca;
+    }
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    public boolean isReparado() {
+        return reparado;
+    }
+    public void setReparado(boolean reparado) {
+        this.reparado = reparado;
+    }    
+}
