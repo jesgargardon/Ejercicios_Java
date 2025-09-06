@@ -1,1 +1,203 @@
+Ejercicio 1
+------------
+Crea una clase llamada Pais. La clase debe tener los siguientes parámetros declarados como privados.
+-	nombre (tipo String): Es el nombre del pais.
+-	población (tipo long): Número de habitantes del pais.
+-	PIB (tipo double): Representa el producto interior bruto en millones de €
+La clase tiene un único constructor con todos los parámetros, y todos los métodos getters y setters.
+Además, tendrá un método que devuelva el PIB per cápita, calculado dividiendo el PIB en € por la población. (Ten en cuenta que tienes que usar el PIB en €)"
+Ejercicio 2
+------------
+Crea un clase llamada proyecto con los siguientes parámetros, que puedes llamarles como quieras: Descripción del Proyecto, duración del Proyecto en días y la tarifa diaria.
+La clase Proyecto tendrá un constructor con los tres parámetros, que tienen que ser declarados como privados. Con lo que tendrás que implementar los métodos getters y setters.
+La clase también tiene un método que calcula el dinero que ganaras trabajando en el Proyecto. Para este cálculo, sencillamente multiplicas el Segundo parámetro por el tercero.
+Ejercicio 3
+------------
+Define una clase Libro con los atributos titulo, autor y precio. Luego, crea las clases hijas Ebook y LibroFisico, que hereden de Libro y añade al menos un atributo específico a cada una de ellas. Crea un objeto de cada clase hija (2 objetos en total) y muestra por pantalla todos los parámetros de uno de ellos.
+Ejercicio 4
+------------
+Crea una clase en Java llamada "Rectángulo" que tenga los atributos "largo" y "ancho", y los métodos "calcularPerímetro" y "calcularÁrea". El método "calcularPerímetro" deberá retornar el perímetro del rectángulo (2largo + 2ancho), mientras que el método "calcularÁrea" deberá retornar el área del rectángulo (largo * ancho).
+Ejercicio 5
+------------
+Codifica un programa java que pregunte al usuario cuantos metros cuadrados tiene su casa y si tiene jardín. Con esos datos, el programa debe calcular el precio de la casa y dibujar el valor en la pantalla. El precio de la casa se obtiene multiplicando los metros cuadrados por 1.000 y sumando 5.000 si la casa tiene piscina.
+Para realizar el programa tienes que definir la Clase Casa con los parámetros que estimes oportunos. Además, la Clase tiene que tener el método para calcular el precio.
+Un posible ejemplo de ejecución sería:
+run:
+Por favor, introduce los metros cuadrados de tu casa: 
+1000
+La casa, tiene jardin? (true/false)
+true
+El precio de la casa es: 1005000.0
+Ejercicio 6
+------------
+Crea una clase llamada "Círculo" que tenga el atributo "radio" y los métodos "calcularPerímetro" y "calcularArea". El método "calcularPerímetro" deberá retornar el perímetro del círculo (2 π radio), mientras que el método "calcularArea" deberá retornar el área del círculo (π radio^2). Usa una constante estática para representar el valor de π (por ejemplo, Math.PI).  Para importar la librería Math usa:  import java.lang.Math;
+Ejercicio 7
+------------
+Crea una clase llamada ""Fracción"" que tenga los atributos ""numerador"" y ""denominador"", y los métodos ""sumar"", ""restar"", ""multiplicar"" y ""dividir"". Cada uno de estos métodos deberá recibir como parámetro otra fracción y retornar una nueva fracción con el resultado de la operación correspondiente.
+Desde el método main, crea dos objetos Fraccion y usa sus métodos"
+Ejercicio 8
+------------
+Crea una Clase Persona que tenga como parámetros el nombre y el año de nacimiento. Además tendrá un método que calcule la edad de la Persona mediante la resta del año actual y el año de nacimiento. El año actual se pasa como parámetro al método.
+Crea una Clase Estudiante que herede de Persona y que tenga un parámetro que indique la carrera que estudia el estudiante.
+Además, tendrá un método que dibuje por pantalla todos los datos del Estudiante, también los heredados.
+En el programa principal, pide al usuario que introduzca los datos de tres estudiantes. Crea un array de estudiantes y almacena los tres estudiantes introducidos por el usuario en el array. Finalmente, pinta por pantalla los datos de los tres estudiantes.
+Ejercicio 9
+------------
+Crea una clase llamada Mueble con las siguientes características:
+- Dos parámetros: descripción (tipo String) y precio (tipo int)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método llamado cuotaMensual, al que se le pasa el parámetro meses y devuelve la cuota mensual, resultado de dividir el precio por el parámetro meses.
+b.- Crea una clase llamada Libreria que herede de la clase Mueble, con las siguientes características:
+- Dos parámetros: numeroBaldas (tipo int) y tieneCajones (tipo boolean)
+- Un constructor que admita todos los parámetros, incluyendo los heredados
+- Todos los métodos getters y setters
+- Un método que imprima por pantalla todos los parámetros de un Objeto Libreria, tanto los heredados como los propios de la Clase.
+c.- En el método main:
+- Crea un objeto Libreria e inicializa todos los parámetros con los valores que quieras.
+- Emplea el método de la clase Mueble para indicar por pantalla la cuota mensual a pagar,si el mueble se financiara a 6 meses.
+- Presenta por pantalla todas las características del objeto Libreria creado, usando el método de la Clase Libreria"
+Ejercicio 10
+------------
+Crea una clase de nombre Ropa que tenga los siguientes parámetros: talla (tipo integer), marca (tipo String) y precio (tipo integer). 
+Todos los parámetros deben ser declarados como privados, por lo que será necesario implementar los métodos getters y setters para usarlos.
+Esta clase debe tener un constructor que acepte todos los parámetros.
+Crea otra clase de nombre Zapato que herede de la clase Ropa.
+La clase Zapato tiene un parámetro: conCordones (privado de tipo Boolean) y un constructor que acepta todos los parámetros, incluidos los de la superclase (Ropa).
+La clase Zapato tiene un método llamado datosZapato que pinta por pantalla todos los datos del objeto Zapato, incluidos los heradados.
+Creadas las dos clases, en el método main, hay que programar las siguientes acciones:
+•Pedir al usuario del programa que introduzca todos los datos de un Zapato.
+•Con los datos introducidos por el usuario, crear un objeto Zapato.
+•Empleando la función datosZapatos de la clase zapato, mostrar por pantalla los datos del zapato introducido por el usuario.
+Ejercicio 11
+------------
+Crea una clase llamada Muebles que tenga los parámetros:precio y peso en kilos.
+Estos parámetros son de tipo int y tienen que ser declarados como privados.
+Crea una clase llamada Lamparas que herede de la clase Muebles. La clase Lamparas tiene un único parámetro: numero de bombillas. Este parámetro es de tipo int y tiene que ser declarado como privado.
+La clase Lamparas tiene un metodo que calcula el extracoste de la lampara en función del número de bombillas: 5 unidades por bombilla
+Crea una clase llamada Mesas que herede de la clase Muebles.
+La clase Mesas tiene un único parámetro: numero de sillas. Este parámetro es de tipo int y tiene que ser declarado como privado.
+La clase Mesas tiene un metodo que calcula el extracoste de la mesa en función del número de sillas: 10 unidades por silla
+En el metodo main, crea un objeto mesa y otro objeto lampara. Presenta por pantalla el coste total de los dos muebles, considerando el precio de ambos, más los extracostes de ambos, calculados a partir de las funciones extra coste de las dos clases."
+Ejercicio 12
+------------
+Define una clase Dispositivo con los atributos: marca, modelo y precio. Luego, crea las clases hijas: Smartphone  y Portatil, que hereden de Dispositivo y añade al menos un atributo específico a cada una de ellas.
+Crea un objeto de cada clase hija (2 objetos en total) y pinta por pantalla todos los parámetros de uno de ellos"
+Ejercicio 13
+------------
+Crea una clase llamada Vivienda con los parámetros: año de construcción, metros cuadrados habitables y precio. Crea otra clase llamada Chalet que herede de Vivienda y que tenga un único parámetro: piscina (un booleano que indica si el chalet tiene piscina). 
+La clase Chalet tiene un método para calcular el máximo de hipoteca que se le puede conceder. Este método sigue la lógica siguiente: Si el chalet tiene piscina, el máximo de hipoteca que se puede conceder es cero, si no la tiene, el máximo de hipoteca es el precio por metro cuadrado multiplicado por 100.
+El programa pide al usuario que introduzca los datos de un Chalet, crea un objeto Chalet con los datos introducidos, y empleando la función de la clase Chalet presenta por pantalla el máximo de hipoteca para ese Chalet.
+Ejercicio 14
+------------
+Define una clase InstrumentoMusical con los atributos nombre, tipo y precio. Luego, crea las clases hijas Guitarra y Piano, que hereden de InstrumentoMusical y añade al menos un atributo específico a cada una de ellas. Crea un objeto de cada clase hija (2 objetos en total) y muestra por pantalla todos los parámetros de uno de ellos.
+Ejercicio 15
+------------
+Crea la clase "Punto" con los atributos "x" e "y", y los métodos "calcularDistancia" y "mover". El método "calcularDistancia" deberá recibir como parámetro otro objeto de la clase "Punto" y retornar la distancia entre los dos puntos (usando la fórmula de la distancia entre dos puntos en un plano cartesiano). El método "mover" deberá recibir como parámetros dos números enteros que representan el desplazamiento en las coordenadas x e y, respectivamente, y deberá actualizar las coordenadas del punto en consecuencia.
+Ejercicio 16
+------------
+Crea una clase llamada Planeta con un único parámetro de tipo double llamado añosLuz. Este parámetro representa los años luz de distancia a los que se encuentra el planeta de la Tierra.
+Crea un método que devuelva los días de viaje necesario para alcanzar el planeta, suponiendo que en un día recorremos 10 años luz
+Crea una clase llamada PlanetaHabitable que herede de la clase Planeta. La clase PlanetaHabitable tiene un único parámetro de tipo double llamado CapacidadPobladoresEnMillones, que representa la máxima capacidad en millones de habitantes que puede asumir ese planeta
+Crea un método que devuelva el número de naves espaciales necesarias para trasladar todas las personas necesarias para poblar el planeta a su máxima capacidad. La capacidad de pasajeros de la nave es un parámetro que se pasa al método.
+PROGRAMA MAIN
+El programa tiene que pedir al usuario que introduzca por teclado los siguientes datos:
+1.- distancia en años luz a la que se encuentra un planeta habitable
+2.- Máxima población que admite el planeta en millones de habitantes
+3.- Capacidad de ocupantes de las naves espaciales en millones de habitantes
+Con la información introducida por el usuario, utilizando los métodos de las clases, indicar por pantalla cuantos días se tardan en alcanzar el planeta y cuantas naves serían necesarias para trasladar a todas las personas necesarias para poblarlo en su máxima capacidad."
+Ejercicio 17
+------------
+Realiza los siguientes puntos:
+1.- Crea una clase llamada Barco con dos parámetros: eslora y manga. Ambos son del tipo double y tienen que estar declarados como privados.
+2.- Crea otra clase llamada Motora que herede de Barco. La clase Motora tiene un único parámetro: Potencia en caballos de vapor. Este parámetro es de tipo double y tiene que declararse como privado.
+3.- Programa un método en la clase Motora que presente por pantalla todos los datos de un objeto Motora
+4.- Programa un segundo método en la clase Motora que devuelva los litros de combustible que se necesitan para recorrer una distancia. Los litros es una variable tipo double. A este método se le pasa la distancia en millas (tipo double) a recorrer como parámetro. El cálculo de los litros necesarios es: ((eslora+manga)/potencia)*millas
+5.- En el método main:
+Pide al usuario que introduzca los datos de manga, eslora, potencia y distancia que quiere recorrer.
+Crea un objeto de tipo Motora con los datos introducidos por el usuario.
+Presenta por pantalla los datos de la Motora utilizando el método de la clase
+Indica por pantalla cuantos litros de combustible necesita la motora para recorrer la distancia deseada. Emplea para ello el método de la clase.
+Ejercicio 18
+------------
+a.- Crea una clase llamada Evento con las siguientes características:
+- Dos parámetros: ubicación (tipo String) y año (tipo int)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método que pinte en pantalla si el evento sucede este año o no.
+b.- Crea una clase llamada Concierto que herede de la clase Evento, con las siguientes características:
+- Dos parámetros: aforo (tipo int) y cantante (tipo String)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método que devuelva un booleano indicando si el concierto está lleno. El criterio para que el concierto este lleno es que el aforo sea 100 o mayor
+c.- En el método main:
+- Crea un objeto concierto e inicializalo con los valores que quieras.
+- Emplea el método de la clase Evento para indicar por pantalla si el concierto sucede este año.
+- Indica por pantalla si el concierto está lleno o no, empleando el método de la clase Concierto que nos devolvía un booleano indicando si el concierto estaba lleno o no.
+Ejercicio 19
+------------
+Realiza el siguiente programa:
+a.- Crea una clase llamada Arbol con las siguientes características:
+- Dos parámetros: edad (tipo int) y altura en metros (tipo int)
+- Un constructor que admita todos los parámetros
+- Todos los métodos getters y setters
+- Un método que devuelva en un integer el precio que te cobra el ayuntamiento por talar el árbol. Para calcularlo se multiplica la altura por 10 y la edad por 7 y se suman ambos resultados. La fórmula sería: precioTala= altura x 10 + edad x 7
+b.- Crea una clase llamada Pino que herede de la clase Arbol, con las siguientes características:
+- Dos parámetros: número de piñas (tipo int) y piñones comestibles (tipo boolean)
+- Un constructor que admita todos los parámetros, incluyendo los heredados
+- Todos los métodos getters y setters
+- Un método que pinte por pantalla todos los parámetros del objeto Pino, incluyendo los heredados.
+c.- En el método main:
+- Crea un objeto Pino e inicialízalo con los valores que quieras.
+- Emplea el método de la clase Arbol para presentar por pantalla el precio de talar el arbol.
+- Emplea el método de la clase Pino para pintar por pantalla todos los parámetros del pino.
+Ejercicio 20
+------------
+Crea una clase llamada Habitacion que tenga los siguientes parámetros:
+-	numeroHabitación (tipo integer y privado): indicará el número de habitación.
+-	numeroPlanta (tipo integer y privado): indicará en que planta del hospital está la habitación.
+-	libre (tipo Boolean y privado): indicará si la habitación está libre y puede por tanto ser ocupada.
+La clase Habitacion tendrá un constructor que acepte todos los parámetros.
+Por otro lado, crearemos la clase UCI que hereda de la clase Habitacion, que será la superclase.
+La clase UCI tendrá las siguientes características:
+-	Tiene dos parámetros adicionales:
+1. sanitario (tipo String): Nombre del sanitario al cargo de la UCI.
+2. paciente: Paciente que ocupa la UCI.
+-	Tiene que tener un constructor que acepte todos los parámetros, incluidos los que hereda de la superclase.
+-	Tiene que tener un método llamado dibujarDatos que dibuja por pantalla todos los datos de un objeto UCI.
+Y en nuestra clase con el método main, programaremos las siguientes acciones:
+-	Tienes que crear un array de 5 objetos UCI.
+-	Inicializa los 5 elementos del array a un valor. Esta parte puede estar hardcodeada.
+-	Una vez inicializadas las UCI, muestra por pantalla el estado de todas ellas.
+-	Después debes pedir al usuario que introduzca por teclado el nombre de un nuevo paciente.
+-	Si hay al menos una UCI libre, tienes que colocar al paciente en dicha UCI y mostrar por pantalla el estado actualizado de las UCIs, y el programa termina su ejecución.
+-	Si todas las UCIs estuvieran ocupadas, tienes que indicarlo, decir que no tienes una UCI libre donde colocar al nuevo paciente y finalizar el programa.
+Ejercicio 21
+------------
+Crea una clase llamada ""Punto"" que tenga los atributos "x" e "y". Crea otra clase llamada "Rectangulo", que tiene como parámetros dos objetos de tipo Punto.
+La clase Rectangulo debe implementar un método que calcule el área del rectángulo a partir de sus dos parámetros Punto.
+El programa debe crear dos objetos punto y presentar por pantalla el área del rectángulo formado por los dos puntos.
+NOTA: Lógicamente el área se calcula multiplicando las diferencias entre las coordenadas x e y de ambos puntos.
+Por ejemplo:
+-	Punto 1: (3,5)  y Punto 2: (1,1)
+-	Diferencias coordenadas x = 2, diferencias coordenadas y = 4
+-	Area = 8
+Si alguna de las diferencias de coordenadas fuera igual a cero, se indica por pantalla que no puede calcularse el área.
+Las clases Punto y Rectángulo pueden ser internas, no es necesario declararlas como públicas en ficheros dedicados.
+Ejercicio 22
+------------
+Crea una clase llamada Individuo con los siguientes atributos: nombre, añoNacimiento, peso (kg) y altura (m). La Clase debe tener dos constructores. El primero con un solo parámetro: nombre. El segundo con todos los parámetros.
+Implementa los siguientes métodos:
+- indiceMasaCorporal: devuelve el índice de masa corporal del individuo. Se calcula como: peso / altura ^2 (kg/m^2).
+- esAdulto: devuelve un valor booleano (verdadero si la persona tiene 18 años o más; falso si es menor de 18).
+En la clase principal (la que contiene el método main), realiza las siguientes acciones:
+Solicita al usuario que introduzca todos sus parámetros: nombre, añoDeNacimiento, peso, altura (utilice la clase JOptionPane). Con los datos introducidos por el usuario, crea un objeto llamado indi.
+Imprima en pantalla toda la información de este individuo, no solo los parámetros, sino también los resultados de los métodos proporcionados por la clase.
+Mediante la sobrecarga de métodos, cree en la clase Persona un segundo método "indiceMasaCorporal". Este método requerirá un parámetro booleano llamado "recomendacion":
+-	Si "recomendacion" es verdadero, el método mostrará una recomendación por pantalla en función del índice de masa corporal (IMC). Las posibles recomendaciones serían:
+1.	IMC <19 o igual a 19: Deberías subir de peso
+2.	IMC >19 y <21: Bien, estás en tu peso
+3.	IMC >21 o igual a 21: Deberías bajar de peso
+-	Si "recomendacion" es falso, el método no mostrará nada. Hará exactamente lo mismo que el método que no recibe parámetros.
+Utiliza este nuevo método desde el método main.
 
