@@ -1,1 +1,88 @@
+Ejercicio 1:
+------------
+Escribe el pseudocódigo y dibuja el flujograma de un algoritmo que realice la suma de dos números
+Ejercicio 2:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que calcule el área de un círculo
+Ejercicio 3:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que calcule el área de un triangulo
+Ejercicio 4:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que indique si el usuario es mayor o menor de edad. El usuario introduce la edad que tiene
+Ejercicio 5:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que indique si un número introducido por el usuario es igual, mayor o menor que cero.
+Ejercicio 6:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que lea dos números y presente por pantalla la suma, la resta, la multiplicación y la división de los dos números.
+Ejercicio 7:
+------------
+Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Diseñar un algoritmo para este propósito. Escribe el pseudocódigo y dibuja el flujograma del algoritmo.
+Ejercicio 8:
+------------
+Una tienda ofrece un descuento del 15% sobre el total de la compra durante el mes de octubre. Dado un mes y un importe, calcular cuál es la cantidad que se debe cobrar al cliente. Escribe el pseudocódigo y dibuja el flujograma del algoritmo.
+Ejercicio 9:
+------------
+Escribe el pseudocódigo y dibuja el flujograma de un algoritmo que obtenga el máximo, el mínimo y la media de un conjunto de números que introduce el usuario. El algoritmo finaliza y deja de pedir al usuario que introduzca más números cuando el número introducido es 0
+Ejercicio 10:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que pida las notas de varios alumnos. Los alumnos tienen 3 notas que se introducen de forma consecutiva, y a continuación se calcula la media. El programa finaliza cuando se introduce como nombre de alumno la cadena vacía(pulsa enter)
+Ejercicio 11:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que lea la edad, peso y estatura de una persona, y luego imprima estos datos y su IMC (Indice de masa corporal). El IMC se calcula dividiendo el peso entre la altura al cuadrado. El peso expresado en Kg y la altura en m
+Ejercicio 12:
+------------
+Realizar un algoritmo que, dado un número entero, visualice en pantalla si es par o impar. En el caso de ser 0, debe visualizar “el número no es par ni impar”. Escribe el pseudocódigo y dibuja el flujograma del algoritmo.
+Ejercicio 13:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que lea un número n y calcule la suma de los n primeros números naturales.
+Ejercicio 14:
+------------
+Escribe el pseudocódigo y dibuja el flujograma de un algoritmo que calcule las soluciones de una ecuación de segundo grado. Si las soluciones son imaginarias hay que indicar que la ecuación no tiene soluciones reales.
+Ejercicio 15:
+------------
+Dibuja el diagrama de flujo y escribe el pseudocódigo de un algoritmo que calcule el factorial de un número n.
+Ejercicio 16:
+------------
+Dibuja el diagrama de flujo y escribe el pseudocódigo de un algoritmo que ordene de mayor a menor un conjunto de n números.
+Ejercicio 17:
+------------
+Escribe el pseudocódigo y dibuja el flujograma del funcionamiento de un reloj digital en permanente funcionamiento. Para que el reloj realmente cuente el tiempo, debes hacer esperar al programa 1 seg antes de incrementar en 1 los segundos del reloj
+Ejercicio 18:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que presenta la tabla de multiplicar del número que introduzca el usuario
+Ejercicio 19:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que dibuje un cuadrado hueco de lado n, empleando el carácter que quieras. El usuario introduce el valor de n, siendo n el número de caracteres.
+Ejercicio 20:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que dado un año, nos diga si es bisiesto o no. Un año es bisiesto bajo las siguientes condiciones:
+Un año divisible por 4 es bisiesto y no debe ser divisible entre 100.
+Si un año es divisible entre 100 y además es divisible entre 400, también resulta bisiesto.
+Ejercicio 21:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que gestione una agenda de contactos. La agenda guarda los contactos del nombre y el número de teléfono, y debe proporcionar al usuario las siguientes 5 opciones de gestión: Agregar contacto, Buscar contacto, Eliminar contacto, Mostrar contacto y Salir
+Ejercicio 22:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que pida al usuario que introduzca una palabra para acertar una clave (clave a acertar: "eureka"). El usuario tiene 3 intentos para acertar, si falla en los 3 intentos se muestra un mensaje indicandalo y se acaba el programa. Si acierta antes se indica y se sale del programa.
+Ejercicio 23:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para un algoritmo que lea un número entero (altura) y a partir de él cree una escalera invertida de asteriscos con esa altura. Debera quedar asi, si ponemos una altura de 5.
+*****
+ ****
+  ***
+   **
+    *
+Ejercicio 24:
+------------
+Escribe el pseudocódigo y dibuja el flujograma para el juego de 3 en raya. El juego de 3 en raya o 3 en línea, es un juego de estrategia simple para dos jugadores. Se juega en una cuadrícula de 3x3. Cada jugador usa un simbolo, uno usa "X" y el otro "O". Los jugares se van turnando para colocar sus símbolos en una casilla vacía. Gana el jugador que consiga alinear 3 de sus simbolos en fila, columna o diagonal. Si se llenan todas las casillas sin que ningún jugador consiga alinear tress, el juego termina en empate
+Ejercicio 25:
+------------
+Implementar el juego de las 7 y media. Escribir el pseudocódigo y flujograma del mismo.
+Cuando empieza el juego aparece un menú, donde el usuario puede realizar las siguientes opciones:
+1. Pedir carta: Se saca una carta de la baraja española, se muestra que carta es y se dice la puntuación que tiene (de 1 a 7 desde el As al siete, y medio punto la sota, el caballo y el rey) No se puede repetir la carta sacada. Si la puntuación supera el 7.5 has perdido y debes quedarte lo más cerca de esa puntuación.
+2. Plantarse: Estás conforme con la suma de la puntuación y dejas jugar a la máquina que sacará cartas para acercarse a las 7.5. Si se pasa, gana el jugador, si supera la puntuación del jugador sin pasarse, gana la máquina. Cuando acabe la máquina se debe visualizar la baraja.
+3. Se visualiza la baraja, marcando con XXXX las cartas que se han sacado
+4.- Salir del juego
 
