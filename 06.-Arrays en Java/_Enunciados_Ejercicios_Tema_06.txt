@@ -1,1 +1,139 @@
+Ejercicio 1
+-----------
+Escribe un programa que dibuje por pantalla la media de los valores de un array de enteros (tipo int). El array se proporciona hardcodeado en el método main, pero el programa tiene que funcionar para cualquier longitud del array (si añadimos o eliminamos elementos del array el programa tiene que seguir funcionando)
+El resultado no puede ser aproximado a entero, sino que tendrá decimales si no es entero.
+Ejercicio 2
+-----------
+Escribe un programa que dibuje por pantalla el número mayor y el número menor de un array de enteros (tipo int).
+El array se proporciona hardcodeado en el método main, pero el programa tiene que funcionar para cualquier longitud del array (si añadimos o eliminamos elementos del array el programa tiene que seguir funcionando).
+Ejercicio 3
+-----------
+Crea un programa que pinte por pantalla los números impares del array numeros declarado e inicializado en el método main. El programa tiene que funcionar si cambiaramos los valores del array o añadieramos o quitaramos valores
+Ejercicio 4
+-----------
+Escribe un programa que pida repetidamente al usuario que introduzca una palabra, y que sólo se pare y acabe el programa, cuando dicha palabra sea: “salir”
+Ejercicio 5
+-----------
+Dado un array de números enteros llamado numeros, que estará hardcodeado en el método main.
+Realizar un programa que presente por pantalla la siguiente información:
+1.- número de elementos del array
+2.- el número más alto del array
+3.- el número más bajo del array
+4.- la suma de todos los elementos del array
+NOTA: El programa tiene que funcionar si añadimos o eliminamos más números al array
+Ejercicio 6
+-----------
+Escribe un programa que dibuje por pantalla los valores impares de un array de enteros (tipo int) y su posición en el array. Por ejemplo, si para el indice 1 tenemos el valor 5, el programa debería escribir:
+"El valor 5 es impar y ocupa la posición 2 en el array".(recuerda que el indice de un array comienza en 0)
+El array se proporciona hardcodeado en el método main, pero el programa tiene que funcionar para cualquier longitud del array (si añadimos o eliminamos elementos del array el programa tiene que seguir funcionando)
+Ejercicio 7
+-----------
+Realiza un programa que pida al usuario que introduzca un texto y remplace las vocales por el signo de interrogación
+Ejercicio 8
+-----------
+Escribe un programa que pida al usuario que introduzca un texto y una letra. Después el programa tiene que calcular y presentar por pantalla, cuantas veces aparece la letra en el texto.
+Pista: Un string es un array de caracteres. Para acceder a un elemento del string, usa la función chartAt(posición). Por ejemplo. Si el string es “Hola Mundo”, con la sentencia text.charAt(3), recuperamos el carácter ‘a’. Recuerda que las posiciones empiezan en 0"
+Ejercicio 9
+-----------
+Escribe un programa que pida al usuario que introduzca los datos de una factura y luego los presente por pantalla.
+	La factura tendrá tres partes. La cabecera, el listado de productos con sus datos, y el pie de factura con el total de la misma.
+	La cabecera tendrá la siguiente información: Producto, unidades, precio/unidad y total.
+	Le pediremos al usuario que introduzca los datos anteriores para tres productos. Por lo que el cuerpo de la factura tendrá 3 líneas.
+Un ejemplo de posible factura impresa sería:
+  _______________________________________
+  Producto ---Unidades ---Precio/unidad ---Total
+  _______________________________________
+  Mesa---7---101.0---707.0
+  Silla---3---45.0---135.0
+  Lampara---11---9.0---99.0
+  _______________________________________
+  Total: 941.0
+Ejercicio 10
+------------
+Escribe un programa que busque un valor dentro de un array de integers y borre todas sus ocurrencias, reduciendo la dimensión del array. Es decir, no vale con poner cero en el lugar donde encontremos el valor.
+El array de integers estará hardcodeado.
+El valor a buscar y borrar debe ser introducido por el usuario.
+El programa debe mostrar por pantalla el valor borrado, el array inicial y el array final.
+Una posible salida sería:
+  Introduce el numero que quieres borrar: 
+  5
+  Elemento a borrar: 5
+  Array inicial: 1 - 5 - 9 - 3 - 45 - 23 - 45 - 12 - 87 - 9 - 6 - 5 - 
+  Array final  : 1 - 9 - 3 - 45 - 23 - 45 - 12 - 87 - 9 - "
+Ejercicio 11
+------------
+Escribe un programa java que invierta el orden de los valores de un array. Por invertir el orden de los valores de un array, me refiero que el último pasa a ser el primero, el penúltimo el segundo y así sucesivamente.
+El array será un array hardcodeado de valores enteros, que puede tener cualquier longitud.
+El programa primero dibujara por pantalla los elementos del array en orden y luego los elementos del array invertido.
+Una posible salida sería:
+  Array inicial: 
+  7 - 3 - 4 - 5 - 9 - 11 - 
+  Array invertido: 
+  11 - 9 - 5 - 4 - 3 - 7 - 
+Ejercicio 12
+------------
+Codifica un programa que pida al usuario que introduzca un texto y lo invierta y presente por pantalla. La última letra sería la primera, la penultima la segunda y así sucesivamente
+Ejercicio 13
+------------
+Escribe un programa en Java que solicite al usuario ingresar una cadena de caracteres y luego determine cuál es la letra que aparece con mayor frecuencia en la cadena.
+Ejercicio 14
+------------
+Escribe un programa que solicite al usuario ingresar dos matrices de números enteros de la misma dimensión, y luego imprima la matriz resultante de sumar las dos matrices ingresadas.
+Ejercicio 15
+------------
+Escribe un programa que borre todos los números pares de un array.
+El array es un array de enteros que puede tener cualquier longitud y está hardcodeado, es decir, el alumno realiza la asignación de los valores del array directamente en el código.
+Ejercicio 16
+------------
+Escribe un programa en Java que solicite al usuario que introduzca tres palabras por el teclado.
+Luego el programa tiene que presentar por pantalla la palabra más larga. En el caso de que fueran más de una palabra, deberán imprimirse todas ellas.
+Ejercicio 17
+------------
+Crea un programa que muestre por pantalla la nota de un estudiante, de entre una lista de estudiantes con sus respectivas notas. Estos datos estarían hardcodeados.
+El nombre del estudiante lo introduce el usuario por teclado (usa la clase Scanner).
+Usa dos arrays, uno para guardar los nombres de los estudiantes, y el otro para guardar las notas de los mismos. Ambos tendrán 5 elementos. Puedes guardar la información relacionada en ambos arrays con el mismo valor del índice. Es decir, si por ejemplo el estudiante Pedro está en la posición 2 del array de estudiantes, su nota estaría en la posición 2 del array de notas.
+Para comparar el nombre del estudiante introducido por teclado con los nombres de los estudiantes en el array de estudiantes, puedes usar el método equals de la Clase String.
+Ejercicio 18
+------------
+Realiza un programa que solicite al usuario que introduzca una frase y cuente cuántas vocales hay en ella. El programa debe contar tanto las vocales minúsculas como las mayúsculas.
+Por ejemplo:
+•	Frase introducida: “Ocho elefantes comen trigo en un trigal”
+•	Resultado: 14 vocales
+NOTA: Recuerda que el método charAt( indice), te devuelve el carácter que se encuentra en la posición marcada por indice. Por ejemplo:
+o	String texto = “Hola”
+o	texto.charAt(0) sería igual a “H”"
+Ejercicio 19
+------------
+Escribe un programa que solicite al usuario ingresar una cadena de caracteres y luego determine si esa cadena es un palíndromo (es decir, si se lee igual de izquierda a derecha que de derecha a izquierda). El programa deberá imprimir "Es palíndromo" o "No es palíndromo" según corresponda.
+Ejercicio 20
+------------
+Escribe un programa que solicite al usuario ingresar una cadena de caracteres y luego determine si esa cadena es un anagrama de otra cadena ingresada posteriormente. Dos cadenas son anagramas si tienen las mismas letras pero en distinto orden. Por ejemplo, "roma" y "amor" son anagramas.
+Ejercicio 21
+------------
+Desarrolla un programa java para ser usado por los camareros de un restaurante, que sirva para tomar nota de los menús que los clientes van a tomar.
+	Primer dato a introducir por el camarero es el número de comensales que tendrá que estar en el rango de 1-5, ya que no hay mesas de más de cinco comensales. El valor introducido debe asegurarse de que se encuentra en el rango definido.
+	Entonces el camarero tiene que introducir el menú seleccionado por cada cliente.
+	Tenemos tres menus: #1,#2 y #3. Puedes identificar cada menú por el número: menú 1, menú 2 o menú 3.
+	Una vez introducidos todos los datos, el programa imprimirá por pantalla los menús solicitados por cada comensal.
+	Tienes que emplear un array para registrar los menus que tomará cada comensal. Ten en cuenta que la dimensión de dicho array tendrá que definirse en ejecución, ya que no sabemos a priori cuantos comensales vamos a tener.
+Ejercicio 22
+------------
+Realiza un programa que pida al usuario que introduzca un texto y cree una palabra con las iniciales de las palabras del texto introducido.
+Por ejemplo: texto introducido = “Hay osos libres arriba”, la palabra que tendría que pintar el programa por pantalla sería: “Hola”
+NOTA: Recuerda que el método charAt( indice), te devuelve el carácter que se encuentra en la posición marcada por indice. Por ejemplo:
+	String texto = “Hola”
+	texto.charAt(0) sería igual a “H”"
+Ejercicio 23
+------------
+Realiza un programa para acertar el nombre de una persona. Dicho nombre estará hardcodeado (no hay que pedir al usuario que introduzca los datos, sino que los escribimos directamente en el código).
+El programa pide al usuario repetidamente que introduzca un nombre hasta que acierte. A cada fallo, el programa da una pista que consiste en mostrar por pantalla las letras del nombre hasta la posición igual al número de fallos que se lleven. Por ejemplo:
+•	Nombre = “Eustaquio”
+•	1ª Introducción: “ Elena”  -> fallo -> 1ª pista: “E”
+•	2ª Introducción: “Enrique” ->  fallo -> 2ª pista: “Eu”
+•	3ª Introducción: “Eulalia” -> fallo -> 3ª pista: “Eus”
+•	4ª Introducción: “Eusebio” -> fallo -> 4ª pista: “Eust”
+•	5ª Introducción: “Eustaquio” -> acierto - > fin del programa
+NOTA: El método substring( indice1, indice2), devuelve los caracteres comprendidos entre los índices pasados como parámetros. Por ejemplo:
+o	String texto = “Hola”
+o	texto.substring(0,2) sería igual a “Hol”
 
