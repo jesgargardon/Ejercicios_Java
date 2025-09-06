@@ -1,1 +1,115 @@
+Ejercicio 1
+------------
+Crea un programa que genere las tablas de multiplicar del 1 al 10 y guarda los datos en un fichero. Los datos tienen que ser explícitos, de forma que cualquiera que abra el fichero entienda que está viendo las tablas de multiplicar.
+Ejercicio 2
+------------
+Realiza un programa en el que el usuario introduzca la ruta de un fichero y una letra. El programa tiene que devolver las veces que aparece esa letra en el fichero.
+Ejercicio 3
+------------
+Realiza un programa que gestione una flota de coches. 
+Accederemos a los distintos coches a través de sus matrículas.
+Las opciones que tiene que dar el programa en su menú principal son:
+1.	Asignar un coche a un conductor: el coche tiene que estar operativo para poder asignarse a un conductor
+2.	Cambiar el estado de un coche: de operativo a no operativo o viceversa.
+3.	Datos de todos los coches
+4.	Dar de alta un coche
+5.	Guardar / Salir: Cuando salimos del programa, guardamos los datos.
+Toda la información tiene que cargarse de un fichero cuando iniciemos el programa y guardarse en ese mismo fichero cuando cerremos el programa. 
+El número de coches en la flota puede ser cualquiera y guardaremos la información de cada coche en líneas sucesivas en el fichero. 
+La información para guardar por cada coche sería:
+1.	Matricula.
+2.	Modelo de Coche: Incluyendo la marca
+3.	Un booleano que indique si el coche está operativo. En caso de que fuera falso se entiende que esta en el taller
+4.	Conductor asignado. Guardaremos null cuando no haya ningún conductor asignado.
+Ejercicio 4
+------------
+Realiza un programa que cuente las veces que una cadena de texto aparece en un fichero de tipo txt. Dicho fichero hay que crearlo manualmente con notepad u otro editor de texto plano.
+La ruta completa del fichero tiene que ser introducida por el usuario. 
+El texto a buscar en el fichero tiene que ser introducido por el usuario.
+El programa tiene que imprimir en pantalla el número de veces que aparece el texto en el fichero.
+Ejercicio 5
+------------
+Realiza un programa que escriba por pantalla la tercera línea de un fichero de tipo txt. La ruta del fichero estará hardcodeada.
+El programa tiene que imprimir en pantalla la tercera línea del fichero, no es necesario comprobar si el fichero tiene tercera línea, se da por hecho.
+Ejercicio 6
+------------
+Realiza un programa para la gestión de libros en una biblioteca. De los libros manejaremos los siguientes datos:
+    1.- Título: título del libro
+    2.- Autor: autor del libro
+    3.- Ubicacion: Quien lo tiene, el nombre de la persona o "biblioteca" si está en la biblioteca.
+Para simplificar el ejercicio, se proporciona el archivo con los libros de la biblioteca: "biblioteca.txt", y NO se implementaran las opciones de dar de alta nuevos libros, ni de dar de baja libros, ni cambiar la ubicación de un libro. El programa sólo trabaja leyendo datos, no implementa ninguna opción de registro de nuevos datos.
+El archivo "biblioteca.txt" es un fichero secuencial que almacena en líneas consecutivas el título del libro, el autor y la ubicación. Un ejemplo de registro sería:
+El Quijote
+Cervantes
+biblioteca
+El programa tendrá las siguientes opciones:
+    1.- Búsqueda por título: se busca un libro por título.
+    2.- Búsqueda por autor: se listan los libros de un autor.
+    3.- Listado de libros y su ubicación
+    4.- Listado de libros prestados: listamos todos los libros prestados indicando el nombre de la persona que lo tiene prestado. No deben aparecer en este listado los libros que estén en la biblioteca.
+    5.- Salir: al salir del programa hay que guardar los datos al fichero: "biblioteca.txt". Al principio del programa, habrá que ir a dicho fichero y cargar los datos.
+Ejercicio 7
+------------
+Tienes un restaurante y quieres crear un programa para guardar las reservas. El programa tendrá las siguientes opciones:
+1.- Introducir una reserva nueva: El usuario tiene que introducir todos los datos de la reserva.
+2.- Cancelar reserva: se busca la reserva por nombre de quien reservo
+3.- Listado de reservas.
+4.- Salir: al salir del programa hay que guardar los datos a un fichero.
+Al principio del programa, habrá que ir a dicho fichero y abrirlo para ver si hay reservas. En el caso de que las haya, recuperarlas y empezar a trabajar con esos datos de partida.
+Para trabajar con las reservas manejamos los siguientes datos:
+1.- dia de al reserva (String)
+2.- mesa: un numero que la identifica (int)
+3.- nombre: nombre de la persona que hace la reserva(String)
+4.- comensales: numero de comensales (int)
+Ejercicio 8
+------------
+Realiza un programa para la gestión de cuentas bancarias, donde manejar la información del saldo y el titular de cada cuenta. Las opciones que provee el programa son:
+1.-Dar de alta una cuenta
+2.-Dar de baja una cuenta
+3.-Ingreso en una cuenta
+4.-Retirada en una cuenta
+5.-Listado de cuentas
+6.-Salir
+El programa implementa persistencia de datos en fichero de texto, con lo que al iniciar el programa hay que leer los datos del fichero y al salir hay que guardar las modificaciones en el fichero.
+Ejercicio 9
+------------
+Tienes una tienda de ordenadores y quieres realizar un programa para la gestión de los pedidos de ordenadores.
+El programa tendrá las siguientes opciones disponibles para el usuario:
+1.- Registrar pedido nuevo: en esta opción se introducen todos los datos de un pedido
+2.- Listado de pedidos: se lista todos los pedidos que tenemos con todos sus datos
+3.- Salir del programa
+Para trabajar con los pedidos, manejamos la siguiente información:
+-	Comprador (tipo String): Nombre del comprador
+-	Dirección (tipo String): Dirección del comprador
+-	Marca (tipo String): Marca del ordenador
+-	Precio (tipo int): precio del ordenador
+Los datos se guardan en un fichero de texto (tipo txt). Al iniciar el programa, se comprueba si existe el fichero con los datos y en caso afirmativo se recuperan los datos del fichero y se empieza a trabajar con ellos.
+Al finalizar el programa se guardan todos los datos en el fichero de texto, de forma que estarían disponibles para cuando volviéramos a trabajar con el programa.
+Ejercicio 10
+------------
+El departamento de recursos humanos quiere hacer una lista con todos los empleados y el salario que cobran.
+Hay que realizar un programa que proporcione las siguientes opciones:
+1.- Registrar un empleado nuevo: Se registra un empleado nuevo con todos sus datos
+2.- Listado de empleados: Listado de empleados con todos sus datos
+3.- Salir del programa
+Para trabajar con los Empleados, manejamos la siguiente información:
+-	Nombre (tipo String): Nombre del empleado
+-	Dirección (tipo String): Dirección del empleado
+-	Antigüedad (tipo int): años de antigüedad en la empresa.
+-	Salario (tipo int): salario del empleado
+Los datos se guardan en un fichero de texto (tipo txt). Al iniciar el programa, se comprueba si existe el fichero con los datos y en caso afirmativo se recuperan los datos del fichero y se empieza a trabajar con ellos. Al finalizar el programa se guardan todos los datos en el fichero de texto, de forma que estarían disponibles para cuando volviéramos a trabajar con el programa.
+Ejercicio 11
+------------
+Crea un programa Java que gestione el cobro de multas en Madrid.
+Las multas pueden ser de tres tipos:
+1.-Aparcar en doble fila: importe asociado de 50€
+2.-Estacionar en zona azul y no pagar ticket: importe asociado de 30€
+3.-Saltarse semáforo en rojo: 100€
+Posteriormente, desde el programa principal, proporciona las siguientes opciones:
+1.- Dar de alta una multa nueva
+2.- Registrar una multa como pagada.
+3.- Listado de multas pendientes de pago: Al final del listado indicar el total pendiente de cobro.
+4.- Listado completo de todas las multas: Al final del listado indicar el total de recaudado y el total pendiente de cobro.
+5.- Salir
+Los datos tendrán que guardarse en un fichero de texto. Al iniciar el programa hay que comprobar si existe el fichero y cargar los datos si existiera. Al salir del programa hay que guardar los datos en el fichero."
 
