@@ -1,1 +1,80 @@
+Ejercicio 1:
+------------
+Desarrolla un programa java que pida al usuario que introduzca dos números enteros: la base y el exponente.
+Los posibles valores de la base estarán entre 1 y 10 y los del exponente entre 1 y 4. Si los valores introducidos están fuera de rango, el programa debe indicarlo y no hacer nada más.
+Si los valores están en rango, hay que calcular la base elevada al exponente, en un método aparte que utilice un bucle for para el cálculo. Y presentar el resultado por pantalla.
+Una posible ejecución del programa sería:
+Introduce la base (0 a 11): 
+7
+Introduce el exponente: 
+3
+Los valores están dentro de rango
+La base: 7  ------ El exponente: 3
+ El resultado es 343
+Ejercicio 2:
+------------
+Escribe una función en Java llamada ""esPrimo"" que reciba un número entero positivo y retorne true si es primo, o false si no lo es. Un número es primo si unicamente es divisible por 1 y por sí mismo. Emplea la función desde el método main para comprobar que funciona.
+Ejercicio 3:
+------------
+Diseñar la función eco() a la que se le pasa como parámetro un número n, y muestra por pantalla n veces el mensaje "Eco…"
+Ejercicio 4:
+------------
+Diseñar una función que recibe como parámetros dos números enteros y devuelve el máximo de ambos
+Ejercicio 5:
+------------
+Codifica el método "operacion" que falta en el siguiente programa.
+public class ElMetodoOperacion {
+    public static void main(String args[]) {
+       double x =7, y = 9, resultado = 0;
+       for (int i=1; i<5; i++){
+          operacion (x,y,i);
+       }
+    }
+}
+Este método tiene tres parámetros:
+1.	x: primer operando, de tipo double y valor hardcodeado de 7.
+2.	y: segundo operando, de tipo double y valor hardcodeado de 9.
+3.	i: indicador de la operación a realizar con los dos parámetros anteriores. Tenemos cuatro posibilidades:
+- La suma: valor 1
+- La resta: valor 2.
+- La multiplicación: valor 3.
+- La división: valor 4.
+El método ejecuta la operación indicada y presenta el resultado por pantalla, mostrando el valor de los dos operandos, la operación realizada y el resultado.
+El método hay que desarrollarlo usando la sentencia de control switch.
+Ejercicio 6:
+------------
+Escribir una función a la que se le pasen dos enteros y muestre todos los números comprendidos entre ellos, incluyendo ambos números
+Ejercicio 7:
+------------
+Realizar una función que calcule y muestre el área o el volumen de un cilindro, según se especifique. Para distinguir un caso de otro se le pasará como opción un número: 1 (para el área) o 2 (para el volumen). Además, hay que pasarle a la función el radio de la base y la altura.
+área = 2π · radio · (altura + radio)
+volumen = π · radio2 · altura"
+Ejercicio 8:
+------------
+Crear una función que, mediante un booleano, indique si el carácter que se pasa como parámetro de entrada corresponde con una vocal.
+Ejercicio 9:
+------------
+Escribir una función a la que se le pase un número entero y devuelva los divisores primos que tiene y cuantos son. Para saber si un número es primo, puedes emplear otra función.
+Ejercicio 10:
+------------
+Empleando la sobrecarga de funciones, escribir dos funciones de nombre maximo, que devuelven el máximo de un serie de números que se le pasen como parámetros. La primera recibiría 2 números, la segunda 3.
+Ejercicio 11:
+------------
+Diseñar una función que calcule a^n, donde a es real y n es entero no negativo. Escribir dos funciones, una versión iterativa y otra recursiva.
+Ejercicio 12:
+------------
+Diseñar la función calculadora(), a la que se le pasan dos números reales (operandos) y qué operación se desea realizar con ellos. Las operaciones disponibles son: sumar, restar, multiplicar o dividir. Estas se especifican mediante un número: 1 para la suma, 2 para la resta, 3 para la multiplicación y 4 para la división. La función devolverá el resultado de la operación mediante un número real
+Ejercicio 13:
+------------
+Escribir una función que calcule de forma recursiva el máximo común divisor de dos números. Para ello, empleando el algoritmo de Euclides, sabemos:
+mcd(a, b) = mcd(a – b, b) si a ≥ b
+mcd(a, b) = mcd(a, b – a) si b > a
+mcd(a, b) = a si b = 0
+mcd(a, b) = b si a = 0"
+Ejercicio 14:
+------------
+Programa una función recursiva que calcule el enésimo término de la serie de Fibonacci. El enésimo valor se calcula sumando los dos valores anteriores de la serie. Es decir:
+fibonacci(n) = fibonacci(n − 1) + fibonacci(n − 2)
+fibonacci(0) = 1
+fibonacci(1) = 1
 
