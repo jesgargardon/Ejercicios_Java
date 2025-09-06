@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="gamRS6MLA4fs2B-uqD5Q">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qD9gXsYjsShy9WRek7qx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sVo8eWBov2D_V9g_eI1e-1" target="qD9gXsYjsShy9WRek7qx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-1" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="87" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Soluciones de una ecuación de segundo grado&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="660" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5g4T-FfKX0s-sWPSXJS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qD9gXsYjsShy9WRek7qx-1" target="I5g4T-FfKX0s-sWPSXJS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qD9gXsYjsShy9WRek7qx-1" value="Leer a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="147" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fhB60b2QltupWCeUgBXA-5" value="Fin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="710" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I5g4T-FfKX0s-sWPSXJS-1" target="NB0EWyJ2rPr5r4y2Koyj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5g4T-FfKX0s-sWPSXJS-1" value="Leer b" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="225" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eM27uRVBK2D_l_hHfrWk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3A96XzFDcWaCMQ-mL7pO-7" target="fhB60b2QltupWCeUgBXA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871.5" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3A96XzFDcWaCMQ-mL7pO-4" target="NB0EWyJ2rPr5r4y2Koyj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3A96XzFDcWaCMQ-mL7pO-4" target="3A96XzFDcWaCMQ-mL7pO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3A96XzFDcWaCMQ-mL7pO-4" value="¿(b*b-4*a*c)&amp;lt;0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3A96XzFDcWaCMQ-mL7pO-7" value="Escribir: &quot;La ecuación no tiene soluciones realies&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="530" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3A96XzFDcWaCMQ-mL7pO-14" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NB0EWyJ2rPr5r4y2Koyj-2" target="3A96XzFDcWaCMQ-mL7pO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-2" value="Leer c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="305" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NB0EWyJ2rPr5r4y2Koyj-5" target="NB0EWyJ2rPr5r4y2Koyj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-5" value="Calcular las dos soluciones reales" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="514" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vuoBa7u2B-9VSgftE0Cr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NB0EWyJ2rPr5r4y2Koyj-7" target="fhB60b2QltupWCeUgBXA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-7" value="Mostrar las dos soluciones reales" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="594" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NB0EWyJ2rPr5r4y2Koyj-16" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="388" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

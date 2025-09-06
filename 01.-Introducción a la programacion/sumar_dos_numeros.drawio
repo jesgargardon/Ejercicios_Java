@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="gamRS6MLA4fs2B-uqD5Q">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sVo8eWBov2D_V9g_eI1e-1" target="sVo8eWBov2D_V9g_eI1e-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-1" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="27" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sVo8eWBov2D_V9g_eI1e-2" target="sVo8eWBov2D_V9g_eI1e-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-2" value="Escribe el primer número" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="97" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sVo8eWBov2D_V9g_eI1e-3" target="sVo8eWBov2D_V9g_eI1e-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-3" value="Escribe el segundo número" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sVo8eWBov2D_V9g_eI1e-6" target="sVo8eWBov2D_V9g_eI1e-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-6" value="Suma los dos números" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="248" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="sVo8eWBov2D_V9g_eI1e-8" target="sVo8eWBov2D_V9g_eI1e-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-8" value="Presenta el resultado por pantalla" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="325" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-10" value="Fin" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="402" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sVo8eWBov2D_V9g_eI1e-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Sumar dos números&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
