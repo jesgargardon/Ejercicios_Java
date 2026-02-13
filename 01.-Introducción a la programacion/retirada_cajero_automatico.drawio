@@ -1,0 +1,200 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Page-1" id="SXzs2bMUbwzJwJ7LC2iD">
+    <mxGraphModel dx="1412" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;p style=&quot;margin-left:35.4pt;mso-add-space:&amp;lt;br/&amp;gt;auto&quot; class=&quot;MsoListParagraphCxSpFirst&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family:&amp;quot;Times New Roman&amp;quot;,serif&quot;&gt;ENUNCIADO&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt;mso-add-space:auto&quot; class=&quot;MsoListParagraphCxSpLast&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(13, 13, 13); background: white;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Diseña un flujograma para&amp;nbsp;controlar la retirada de dinero de un cajero automático. El usuario introduce la cantidad que quiere retirar y el cajero automático entrega dicha cantidad con el &lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;menor número de billetes posible&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt&quot; class=&quot;MsoNormal&quot;&gt;Hay 3 tipos de billetes: 50€, 20€&amp;nbsp;y 10€.&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt&quot; class=&quot;MsoNormal&quot;&gt;La cantidad introducida por el usuario tiene que ser múltiplo de 10. Si no se cumple esta regla hay que pedirle al usuario que vuelva a introducir la cantidad. Si la cantidad es válida hay que calcular la combinación que emplee el menor número de billetes&lt;br&gt;posibles.&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt&quot; class=&quot;MsoNormal&quot;&gt;El programa tiene que mostrar el número de billetes de cada tipo que entrega al usuario y el número total de billetes entregados.&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Casos de prueba&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:71.4pt;text-indent:-18.0pt;line-height:&amp;lt;br/&amp;gt;115%;mso-list:l1 level1 lfo1;tab-stops:list 71.4pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;1) Cantidad = 180€&lt;/b&gt; → 3 billetes de 50€, 1 billete de 20€ y 1 billetes de 10€&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(total 5 billetes)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:71.4pt;text-indent:-18.0pt;line-height:&amp;lt;br/&amp;gt;115%;mso-list:l1 level1 lfo1;tab-stops:list 71.4pt&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;2) Cantidad = 70&lt;/b&gt; → 1 billete de 50€, 1 billete de 20€ y 0 billetes de 10€&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(total 2 billetes)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Pistas para tu flujograma&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Se puede redondear un número a entero&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;simplemente usando la instrucción redondear. Ejemplo:&amp;nbsp; Redondear (45,6) = 45&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 7pt; text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left:35.4pt;line-height:115%&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Se puede extraer el resto de una división&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-indent: -18pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;empleando la instrucción Resto. Ejemplo: Resto (7/2) = 1&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="350" width="750" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-4" edge="1" parent="1" source="8XVuLqhs8hrvxDa1igTJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8XVuLqhs8hrvxDa1igTJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INCIO" vertex="1">
+          <mxGeometry height="30" width="70" x="290" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-7" edge="1" parent="1" source="8XVuLqhs8hrvxDa1igTJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8XVuLqhs8hrvxDa1igTJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leer cantidad" vertex="1">
+          <mxGeometry height="30" width="120" x="265" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-8" edge="1" parent="1" source="8XVuLqhs8hrvxDa1igTJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="602" />
+              <mxPoint x="200" y="472" />
+            </Array>
+            <mxPoint x="320" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-11" edge="1" parent="1" source="8XVuLqhs8hrvxDa1igTJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="8XVuLqhs8hrvxDa1igTJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Resto(cantidad /10) =0?" vertex="1">
+          <mxGeometry height="80" width="170" x="240" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="217" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-14" edge="1" parent="1" source="8XVuLqhs8hrvxDa1igTJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B50= Redondear (cantidad /50)&lt;div&gt;queda= Resto (cantidad /50)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="210" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Si" vertex="1">
+          <mxGeometry height="30" width="30" x="325" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-44" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="8XVuLqhs8hrvxDa1igTJ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="272" y="996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FIN" vertex="1">
+          <mxGeometry height="30" width="70" x="290" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="8XVuLqhs8hrvxDa1igTJ-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;strokeColor=none;" value="&lt;b&gt;&lt;u&gt;SOLUCIÓN 1:&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Una solución sencilla es la que se plantea en el flujograma de la izquierda.&lt;/div&gt;&lt;div&gt;Dividimos la cantidad inicial por 50, el redondeo del resultado de dicha división nos da el número de billetes de 50, y el resto de dicha división la cantidad que quedaría por entregar.&lt;/div&gt;&lt;div&gt;Lo que queda por entregar se divide por 20, y el redondeo de dicha operación nos dará el número de billetes de 20, el resto lo que queda por entregar.&lt;/div&gt;&lt;div&gt;Finalmente, dividimos lo que queda por entregar entre 10. Aquí no hace falta redondear ni calcular el resto, porque llegados a este punto, y al ser cantidad múltiplo de 10, o quedan 10€ por entregar o no queda nada por entregar.&lt;/div&gt;&lt;div&gt;El orden de las divisiones tiene que ser de mayor a menor valor del billete, para asegurar que se entrega la cantidad pedida por el usuario empleando el menor número de billetes posibles&lt;/div&gt;" vertex="1">
+          <mxGeometry height="278" width="330" x="460" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-5" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B20= Redondear (queda/20)&lt;div&gt;queda= Resto (queda /20)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="210" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-6" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B10= queda/10" vertex="1">
+          <mxGeometry height="42" width="230" x="210" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mostrar num_B50, num_B20, num_B10&lt;div&gt;Mostrar num_total_billetes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="210" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-7" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_total_billetes = num_B50 + num_B20 + num_B10" vertex="1">
+          <mxGeometry height="42" width="330" x="160" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-8" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INCIO" vertex="1">
+          <mxGeometry height="30" width="70" x="262" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-10" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leer cantidad" vertex="1">
+          <mxGeometry height="30" width="120" x="237" y="1271" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-12" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="1374" />
+              <mxPoint x="172" y="1244" />
+            </Array>
+            <mxPoint x="292" y="1244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-13" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Resto(cantidad /10) =0?" vertex="1">
+          <mxGeometry height="80" width="170" x="212" y="1334" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-15" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="189" y="1344" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-34" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B50= Redondear (cantidad /50)&lt;div&gt;queda= Resto (cantidad /50)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="182" y="1532" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Si" vertex="1">
+          <mxGeometry height="30" width="30" x="297" y="1402" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;strokeColor=none;" value="&lt;b&gt;&lt;u&gt;SOLUCIÓN 2:&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Una solución más eficiente que la anterior sería comprobar después del cálculo del número de billetes de cada tipo si ya se ha entregado todo el dinero, y en caso de que fuera verdadero salir directamente del programa.&lt;/div&gt;&lt;div&gt;En esta solución hay que inicializar a cero el número de billetes de cada tipo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="146" width="358" x="432" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-37" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B20= Redondear (queda/20)&lt;div&gt;queda= Resto (queda /20)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="182" y="1712" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-49" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="297" y="1970" />
+            </Array>
+            <mxPoint x="580" y="1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B10= queda/10" vertex="1">
+          <mxGeometry height="42" width="230" x="182" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-47" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mostrar num_B50, num_B20, num_B10&lt;div&gt;Mostrar num_total_billetes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="230" x="470" y="2020" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-48" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_total_billetes = num_B50 + num_B20 + num_B10" vertex="1">
+          <mxGeometry height="42" width="330" x="420" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-30" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="num_B50 = 0&lt;div&gt;num_B20 = 0&lt;/div&gt;&lt;div&gt;num_B10 = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="100" x="247" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-35" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-39" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-32" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿queda = 0?" vertex="1">
+          <mxGeometry height="60" width="103" x="245.5" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-36" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-42" edge="1" parent="1" source="Il5opax3KVz5TG8A1U8o-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Il5opax3KVz5TG8A1U8o-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-33" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿queda = 0?" vertex="1">
+          <mxGeometry height="60" width="103" x="244" y="1789" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-38" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="292" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Si" vertex="1">
+          <mxGeometry height="30" width="30" x="335" y="1608" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-41" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="No" vertex="1">
+          <mxGeometry height="30" width="40" x="290" y="1838" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-43" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Si" vertex="1">
+          <mxGeometry height="30" width="30" x="335" y="1788" as="geometry" />
+        </mxCell>
+        <mxCell id="Il5opax3KVz5TG8A1U8o-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FIN" vertex="1">
+          <mxGeometry height="30" width="70" x="550" y="2190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
